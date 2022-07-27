@@ -13,6 +13,8 @@ public class Pessoa {
 	private String nome;
 	private String ocupacao;
 	
+	public Pessoa() {};
+	
 	public Pessoa(String nome, String ocupacao) {
 		super();
 		this.nome = nome;
