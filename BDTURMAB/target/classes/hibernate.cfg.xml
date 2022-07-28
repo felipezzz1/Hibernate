@@ -25,6 +25,10 @@
  
 		<!-- Lista das entidades que serão persistidas no Banco de Dados-->		
 		<mapping class="org.BDTURMAB.Pessoa" />	
-		<mapping class="org.BDTURMAB.Carro"/>			
+		<mapping class="org.BDTURMAB.Carro"/>
+		<mapping class="org.BDTURMAB.Endereco"/>
+		<mapping class="org.BDTURMAB.Email"/>
+		<mapping class="org.BDTURMAB.Produto"/>
+		<mapping class="org.BDTURMAB.Venda"/>				
 	</session-factory>
 </hibernate-configuration>
